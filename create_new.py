@@ -21,7 +21,7 @@ df = df.astype({'Color':'string'})
 writer = pd.ExcelWriter(path = sciezka , engine = 'openpyxl')
 arkusze(writer=writer, df=df)
 writer.save()
-a
+
 
 
 wb = xw.Book(sciezka)
