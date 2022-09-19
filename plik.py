@@ -15,3 +15,4 @@ def arkusze(writer, df):
         temp_df = df[df.Color == str(x)]
         temp_df.to_excel(writer, sheet_name=str(x))
     df.to_excel(writer, sheet_name='all table')
+
